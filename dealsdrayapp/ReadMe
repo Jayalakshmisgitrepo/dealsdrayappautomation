@@ -1,0 +1,17 @@
+About this Framework:
+
+This is a mavenframework which support page object model design pattern, for every app page 
+we have corresponding object classes.
+
+We are using TestNG library,Annotations for Better code readability, report generation, 
+Grouping Tests and for prioritizing tests.
+
+We have a TestBase.java class file which has details of all the browser driver details, 
+Common methods used across the project.
+
+We have two xml files parallelbrowserTests.xml, parallelappresolutionTests.xml for 
+different test suites.
+
+pom.xml file has all the selenium dependencies required for the project.
+
+test-output folder contains all the reports of the executed tests.

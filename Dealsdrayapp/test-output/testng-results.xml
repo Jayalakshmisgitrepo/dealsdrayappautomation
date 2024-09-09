@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-09T17:53:39 IST" name="Suite" finished-at="2024-09-09T17:55:02 IST" duration-ms="82517">
+    <groups>
+      <group name="Logintests">
+        <method signature="DealsdrayAppParallelTest.launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@26d9b808]" name="launchgetcalleyapp" class="mavenframework.DealsdrayAppParallelTest"/>
+        <method signature="DealsdrayAppParallelTest.launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@196a42c3]" name="launchgetcalleyapp" class="mavenframework.DealsdrayAppParallelTest"/>
+        <method signature="DealsdrayAppParallelTest.launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@15043a2f]" name="launchgetcalleyapp" class="mavenframework.DealsdrayAppParallelTest"/>
+        <method signature="DealsdrayAppParallelTest.launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@7f485fda]" name="launchgetcalleyapp" class="mavenframework.DealsdrayAppParallelTest"/>
+      </group> <!-- Logintests -->
+    </groups>
+    <test started-at="2024-09-09T17:53:39 IST" name="mobiledimension414_896" finished-at="2024-09-09T17:54:32 IST" duration-ms="52705">
+      <class name="mavenframework.DealsdrayAppParallelTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:mavenframework.DealsdrayAppParallelTest@26d9b808]" started-at="2024-09-09T17:53:39 IST" name="launchbrowser" finished-at="2024-09-09T17:54:31 IST" duration-ms="51892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiledimension360_640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@26d9b808]" started-at="2024-09-09T17:54:31 IST" name="launchgetcalleyapp" finished-at="2024-09-09T17:54:32 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchgetcalleyapp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:mavenframework.DealsdrayAppParallelTest@26d9b808]" started-at="2024-09-09T17:54:32 IST" name="closebrowser" finished-at="2024-09-09T17:54:32 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- mavenframework.DealsdrayAppParallelTest -->
+    </test> <!-- mobiledimension414_896 -->
+    <test started-at="2024-09-09T17:53:39 IST" name="chrome1536_864" finished-at="2024-09-09T17:54:35 IST" duration-ms="55670">
+      <class name="mavenframework.DealsdrayAppParallelTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:mavenframework.DealsdrayAppParallelTest@196a42c3]" started-at="2024-09-09T17:53:39 IST" name="launchbrowser" finished-at="2024-09-09T17:54:34 IST" duration-ms="54534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome1536_864]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@196a42c3]" started-at="2024-09-09T17:54:34 IST" name="launchgetcalleyapp" finished-at="2024-09-09T17:54:35 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchgetcalleyapp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:mavenframework.DealsdrayAppParallelTest@196a42c3]" started-at="2024-09-09T17:54:35 IST" name="closebrowser" finished-at="2024-09-09T17:54:35 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- mavenframework.DealsdrayAppParallelTest -->
+    </test> <!-- chrome1536_864 -->
+    <test started-at="2024-09-09T17:53:39 IST" name="chrometest" finished-at="2024-09-09T17:54:39 IST" duration-ms="59472">
+      <class name="mavenframework.DealsdrayAppParallelTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:mavenframework.DealsdrayAppParallelTest@7f485fda]" started-at="2024-09-09T17:53:39 IST" name="launchbrowser" finished-at="2024-09-09T17:54:38 IST" duration-ms="58773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@7f485fda]" started-at="2024-09-09T17:54:38 IST" name="launchgetcalleyapp" finished-at="2024-09-09T17:54:39 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchgetcalleyapp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:mavenframework.DealsdrayAppParallelTest@7f485fda]" started-at="2024-09-09T17:54:39 IST" name="closebrowser" finished-at="2024-09-09T17:54:39 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- mavenframework.DealsdrayAppParallelTest -->
+    </test> <!-- chrometest -->
+    <test started-at="2024-09-09T17:53:39 IST" name="chrome1366_768" finished-at="2024-09-09T17:55:02 IST" duration-ms="82517">
+      <class name="mavenframework.DealsdrayAppParallelTest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:mavenframework.DealsdrayAppParallelTest@15043a2f]" started-at="2024-09-09T17:53:39 IST" name="launchbrowser" finished-at="2024-09-09T17:55:02 IST" duration-ms="82200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome1366_768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="launchgetcalleyapp()[pri:1, instance:mavenframework.DealsdrayAppParallelTest@15043a2f]" started-at="2024-09-09T17:55:02 IST" name="launchgetcalleyapp" finished-at="2024-09-09T17:55:02 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchgetcalleyapp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:mavenframework.DealsdrayAppParallelTest@15043a2f]" started-at="2024-09-09T17:55:02 IST" name="closebrowser" finished-at="2024-09-09T17:55:02 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- mavenframework.DealsdrayAppParallelTest -->
+    </test> <!-- chrome1366_768 -->
+  </suite> <!-- Suite -->
+</testng-results>

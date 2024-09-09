@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+ 	<test name="mobiledimension414_896">
+ 		<parameter name="browser" value= "mobiledimension360_640" />
+ 		<classes>
+ 			<class name="mavenframework.DealsdrayAppParallelTest" />
+ 		</classes>
+ 	</test>	
+  <test name="chrome1536_864">
+ 		<parameter name="browser" value= "chrome1536_864" />
+ 		<classes>
+ 			<class name="mavenframework.DealsdrayAppParallelTest" />
+ 		</classes>
+ 	</test>
+ 	<test name="chrome1366_768">
+ 		<parameter name="browser" value= "chrome1366_768" />
+ 		<classes>
+ 			<class name="mavenframework.DealsdrayAppParallelTest" />
+ 		</classes>
+ 	</test>	
+ 		<test name="chrometest">
+ 		<parameter name="browser" value= "chrome" />
+ 		<classes>
+ 			<class name="mavenframework.DealsdrayAppParallelTest" />
+ 		</classes>
+ 	</test>	
+	</suite>
